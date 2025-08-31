@@ -6,7 +6,7 @@ const minWindowEdge = Math.min(windowHeight, windowWidth);
 const maxWindowEdge = Math.max(windowHeight, windowWidth);
 
 export default function (rpx: number) {
-    return (rpx / 750) * minWindowEdge;
+    return (rpx / 375) * minWindowEdge;
 }
 
 export function vh(pct: number) {
